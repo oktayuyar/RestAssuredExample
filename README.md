@@ -1,3 +1,3 @@
 # RestAssuredExample
 
-#Rest Assured Framework ile API Testi
+Rest Assured Framework ile API Testi
