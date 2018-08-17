@@ -32,5 +32,6 @@ public class UserService {
         } catch (Exception ex) {
             Assert.fail("Unblocking user service timeout exception!");
         }
+
     }
 }

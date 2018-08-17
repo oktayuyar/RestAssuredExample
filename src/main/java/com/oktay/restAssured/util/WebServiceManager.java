@@ -34,6 +34,7 @@ public class WebServiceManager {
         return instance;
     }
 
+
     public RestAssured getRestRequest() {
         return restRequest;
     }
