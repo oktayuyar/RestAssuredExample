@@ -8,7 +8,7 @@ import io.restassured.http.ContentType;
 
 public class WebServiceManager {
 
-    private String baseURL = "http://172.20.34.59/JanusTest/api";
+    private String baseURL = "baseURL";
     private static WebServiceManager instance = null;
     private final RestAssured restRequest = new RestAssured();
 
