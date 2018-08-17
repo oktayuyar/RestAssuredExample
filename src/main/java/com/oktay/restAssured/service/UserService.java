@@ -1,5 +1,6 @@
-package com.oktay.restAssured.util;
+package com.oktay.restAssured.service;
 
+import com.oktay.restAssured.util.WebServiceManager;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.json.simple.JSONObject;

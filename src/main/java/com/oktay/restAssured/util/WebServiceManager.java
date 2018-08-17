@@ -6,10 +6,9 @@ import io.restassured.config.HttpClientConfig;
 import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.ContentType;
 
-
 public class WebServiceManager {
 
-    private String baseURL = "baseURL";
+    private String baseURL = "http://172.20.34.59/JanusTest/api";
     private static WebServiceManager instance = null;
     private final RestAssured restRequest = new RestAssured();
 
@@ -33,7 +32,6 @@ public class WebServiceManager {
         }
         return instance;
     }
-
 
     public RestAssured getRestRequest() {
         return restRequest;
